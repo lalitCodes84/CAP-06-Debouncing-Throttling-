@@ -1,0 +1,62 @@
+body {
+  font-family: ROG Fonts , sans-serif;
+  background-color: #1d1c1c;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/thalapathy-vijay-leo-tamil-poster-out-203320658-16x9.jpg?VersionId=be5LnvEqRvSA8OfSA8xD15TN_mLDkF0p") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#movieSearch {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 300px;
+  box-shadow: rgb(6, 246, 6) 0px 5px 15px;
+  border-radius: 10px;
+  font-family:"Times New Roman", Times, serif;
+  font-weight: bold;
+ 
+}
+
+#movieResults {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.movie-card {
+  background-color: #5c5b5b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+  background-image: url("https://www.shutterstock.com/image-vector/online-cinema-banner-web-films-260nw-1297012507.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 350px;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgb(255, 19, 11);
+}
+
+h3 {
+  background-color: transparent;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  color: whitesmoke;
+  font-size: 18px;
+  margin: 10px ;
+}
+
+p {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 10px;
+} 
